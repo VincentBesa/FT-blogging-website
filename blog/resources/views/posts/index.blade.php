@@ -31,11 +31,11 @@
             {{ $posts->links() }}
         @else
             <p class="mb-6">No blog posts found.</p>
-            <div class="mb-4">
+            {{-- <div class="mb-4">
                 <a href="{{ route('posts.create') }}" class="text-blue-500 hover:text-blue-700">
                     Create New Post
                 </a>
-            </div>
+            </div> --}}
         @endif
     </div>
 
